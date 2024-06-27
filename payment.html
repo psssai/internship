@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Payment</h1>
+    </header>
+    <main>
+        <form id="payment-form" onsubmit="processPayment(event)">
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" required>
+            <button type="submit">Pay</button>
+        </form>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
